@@ -89,14 +89,12 @@ img{
         margin-top: 50px ;
      }
 
-img{
-    max-width: fit-content;
-    }
+
 
 }
 
 /* mobile */
-@media(max-width:500px){
+@media(max-width:600px){
     .navbar ul li{
         height: 110px;
         padding-top: 10px;
@@ -106,6 +104,10 @@ img{
     }
     .navbar .container{
         flex-direction: column;
+    }
+
+    img{
+       flex-direction: column;
     }
 
 
